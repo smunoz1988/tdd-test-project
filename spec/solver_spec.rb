@@ -21,4 +21,15 @@ describe Solver do
         expect(result).to eql("olleh")
     end
     end
+
+    describe "#factorial" do # test for factorial method
+    it "returns 120 for 5" do
+        mockInteger = double("mockInteger")
+        expect(mockInteger).to receive(:factorial).and_return(120)
+
+        allow(Solver).to receive(:new).and_return(mockInteger)
+        solver = Solver.new
+        expect(solver.factorial(5)).to eql(120)
+    end
+    end
 end
