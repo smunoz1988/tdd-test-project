@@ -2,7 +2,6 @@
 
 <a name="readme-top"></a>
 <div align="center">
-    <img src="./code.png" alt="logo" width="700"  height="auto" />
   <br/>
   <h3><b>TDD Setup </b></h3>
 </div>
