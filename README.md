@@ -78,6 +78,7 @@ This project does not require additional dependencies, just Ruby interpreter. Ho
 
 ```sh
 bundle install
+gem install rspec
 ```
 
 ### Usage
