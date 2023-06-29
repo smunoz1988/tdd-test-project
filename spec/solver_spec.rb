@@ -32,4 +32,27 @@ describe Solver do
         expect(solver.factorial(5)).to eql(120)
     end
     end
+
+    describe "#fizzbuzz" do # test for fizzbuzz method
+    it "returns fizzbuzz when divisible by 3 and 5" do
+        mockInteger = double("mockInteger")
+        allow(mockInteger).to receive(:fizzbuzz).with(15).and_return("fizzbuzz")
+        solver = Solver.new
+        expect(solver.fizzbuzz(15)).to eql("fizzbuzz")
+      end
+    
+      it "returns fizz when divisible by 3" do
+        mockInteger = double("mockInteger")
+        allow(mockInteger).to receive(:fizzbuzz).with(9).and_return("fizz")
+        solver = Solver.new
+        expect(solver.fizzbuzz(9)).to eql("fizz")
+      end
+    
+      it "returns buzz when divisible by 5" do
+        mockInteger = double("mockInteger")
+        allow(mockInteger).to receive(:fizzbuzz).with(10).and_return("buzz")
+        solver = Solver.new
+        expect(solver.fizzbuzz(10)).to eql("buzz")
+      end
+end
 end
