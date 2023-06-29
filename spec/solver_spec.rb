@@ -54,5 +54,10 @@ describe Solver do
       solver = Solver.new
       expect(solver.fizzbuzz(10)).to eql('buzz')
     end
+
+    it 'raise an exception when number is negative' do
+      solver = Solver.new
+      expect { solver.fizzbuzz(-1) }.to raise_error('Number must be positive')
+    end
   end
 end

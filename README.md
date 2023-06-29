@@ -110,7 +110,7 @@ rubocop
 
 - GitHub: [@daniela](https://github.com/danielamoreno699)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/daniela-moreno-06a139124/)
-- twitter : [twitter](@Daniela38932450)
+- twitter : [twitter](https://twitter.com/Daniela38932450)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
